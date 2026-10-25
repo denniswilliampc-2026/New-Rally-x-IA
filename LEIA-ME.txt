@@ -1,0 +1,20 @@
+NEW RALLY-X IA - APLICATIVO INSTALAVEL (PWA)
+
+CONTEUDO
+  index.html, manifest.webmanifest, sw.js e a pasta icons/
+
+COMO INSTALAR NO CELULAR (Android / Chrome)
+  1. Coloque ESTA PASTA inteira em um endereco HTTPS (o navegador exige HTTPS para instalar):
+       - GitHub Pages, Netlify, Cloudflare Pages ou Vercel (gratis; basta enviar a pasta), ou
+       - no computador, para testar: abra um terminal na pasta e rode  python -m http.server 8080
+         e acesse http://localhost:8080 (localhost tambem vale como seguro).
+  2. Abra o endereco no Chrome do celular.
+  3. Menu (tres pontos) > "Instalar aplicativo" (ou "Adicionar a tela inicial").
+  4. Abra pelo icone: o jogo entra em tela cheia e na horizontal e funciona sem internet.
+
+iPhone (Safari): Compartilhar > "Adicionar a Tela de Inicio".
+
+OBSERVACOES
+  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v1'  em sw.js (ex.: nrx-v2).
+  - Abrir index.html direto do arquivo (duplo clique) continua funcionando, mas sem instalacao.
+  - O modo online ainda nao tem servidor; o resto do jogo funciona offline.
