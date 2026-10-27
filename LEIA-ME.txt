@@ -15,6 +15,6 @@ COMO INSTALAR NO CELULAR (Android / Chrome)
 iPhone (Safari): Compartilhar > "Adicionar a Tela de Inicio".
 
 OBSERVACOES
-  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v1'  em sw.js (ex.: nrx-v2).
+  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v3'  em sw.js (ex.: nrx-v4).
   - Abrir index.html direto do arquivo (duplo clique) continua funcionando, mas sem instalacao.
   - O modo online ainda nao tem servidor; o resto do jogo funciona offline.
