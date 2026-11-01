@@ -1,4 +1,4 @@
-NEW RALLY-X IA - APLICATIVO INSTALAVEL (PWA)
+NEW RALLY-X IA V.1.1 - APLICATIVO INSTALAVEL (PWA)
 
 CONTEUDO
   index.html, manifest.webmanifest, sw.js e a pasta icons/
@@ -14,7 +14,14 @@ COMO INSTALAR NO CELULAR (Android / Chrome)
 
 iPhone (Safari): Compartilhar > "Adicionar a Tela de Inicio".
 
+MULTIJOGADOR ONLINE (P2P, SEM SERVIDOR)
+  Os jogadores se conectam direto (WebRTC). Nao existe servidor do jogo: voces trocam dois codigos.
+  ANFITRIAO: JOGADORES ONLINE > CRIAR SALA > CONVIDAR (no carro livre) > COPIAR e enviar o codigo ao amigo.
+  AMIGO:     JOGADORES ONLINE > ENTRAR NA SALA > COLAR o convite > GERAR RESPOSTA > COPIAR e enviar de volta.
+  ANFITRIAO: cola a resposta e toca CONECTAR. Repita para cada amigo (ate 4 jogadores) e toque INICIAR.
+  - Em redes muito restritas (alguns 4G/CGNAT ou empresas) a conexao direta pode falhar: tente Wi-Fi.
+  - O anfitriao roda o jogo; quem sair da sala perde a partida (o carro dele sai do jogo).
+
 OBSERVACOES
-  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v4'  em sw.js (ex.: nrx-v5).
-  - Abrir index.html direto do arquivo (duplo clique) continua funcionando, mas sem instalacao.
-  - O modo online ainda nao tem servidor; o resto do jogo funciona offline.
+  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v5'  em sw.js (ex.: nrx-v6).
+  - Abrir index.html direto do arquivo (duplo clique) funciona, mas sem instalacao.
