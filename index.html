@@ -2,14 +2,6 @@
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>New Rally-X IA</title>
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icons/icon-192.png">
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<meta name="theme-color" content="#0a1a55">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Rally-X IA">
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#050a1a}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#03060f}}
@@ -594,5 +586,4 @@ let last=0;function frame(t){requestAnimationFrame(frame);const dt=Math.min(.05,
  try{update(dt);draw()}catch(err){console.error(err);x.fillStyle='#000';x.fillRect(0,0,CW,VH);OUT=false;txt('ERRO',240,100,'#f33',1,'center')}}
 requestAnimationFrame(frame);
 
-if('serviceWorker' in navigator&&location.protocol.startsWith('http'))addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
 </script></body></html>
