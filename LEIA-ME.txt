@@ -1,4 +1,4 @@
-NEW RALLY-X IA V.1.1 - APLICATIVO INSTALAVEL (PWA)
+NEW RALLY-X IA V.1.1 (correcao 1) - APLICATIVO INSTALAVEL (PWA)
 
 CONTEUDO
   index.html, manifest.webmanifest, sw.js e a pasta icons/
@@ -23,5 +23,5 @@ MULTIJOGADOR ONLINE (P2P, SEM SERVIDOR)
   - O anfitriao roda o jogo; quem sair da sala perde a partida (o carro dele sai do jogo).
 
 OBSERVACOES
-  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v5'  em sw.js (ex.: nrx-v6).
+  - Para atualizar o jogo, troque o index.html e mude  const V='nrx-v6'  em sw.js (ex.: nrx-v7).
   - Abrir index.html direto do arquivo (duplo clique) funciona, mas sem instalacao.
